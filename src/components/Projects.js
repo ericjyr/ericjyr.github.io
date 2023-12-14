@@ -130,7 +130,7 @@ export const Projects = () => {
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
 
-                    <h2>Github Pages Blog</h2>
+                    <h2>Jekyll Blog</h2>
 
                     <p>A dynamic and versatile static website powered by Ruby on Rails. This personal blog is a dedicated space where I share comprehensive tutorials, insights, and engaging content. Explore a platform designed to deliver informative and engaging articles, providing valuable resources and knowledge on various subjects.</p>
 
@@ -157,7 +157,7 @@ export const Projects = () => {
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
 
-                    <h2>Bow Wow Petfinder</h2>
+                    <h2>Bow Wow</h2>
                     <p>The 'Bow Wow' web application is a dedicated platform designed to streamline the pet adoption process. This intuitive and user-friendly platform facilitates connections between potential pet adopters and animals seeking loving homes, fostering a seamless adoption experience.</p>
                       <Row>
                         {
