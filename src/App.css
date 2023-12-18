@@ -256,6 +256,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1;
   margin-bottom: 20px;
   display: block;
+  min-height: 130px;
 }
 .banner p {
   color: #B8B8B8;
@@ -300,9 +301,87 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-right: 0.08em solid #666;
 }
 
+/************ Education Css ************/
+
+.education {
+  padding: 80px 10px 90px 10px;
+  background: #151515;
+  position: relative;
+}
+
+.education-header-bx {
+  text-align: center;
+  
+}
+
+.education-header-bx p {
+  
+  width: 56%;
+}
+
+.education-heading {
+  text-align: center; /* Align the heading */
+  padding-bottom: 20px;
+}
+.education-whole-bx {
+  background: #151515;
+  border-radius: 64px;
+  padding: 40px 10px 10px 10px; 
+
+}
+
+
+.education-bx {
+  background: #070707;
+  border-radius: 64px;
+  min-height: 280px;
+  text-align: center;
+  padding: 40px 40px 20px 40px; 
+  margin-bottom: 20px;
+}
+
+.education h2 {
+	font-size: 45px;
+	font-weight: 700;
+  margin-bottom: 10px;
+}
+.education p {
+    color: #B8B8B8;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px 0 75px 0;
+}
+
+.education-logo {
+  width: 180px;
+  border-radius: 50%;
+}
+
+.img-fluid {
+max-width: 100%;
+height: auto;
+}
+
+
+.text-content {
+
+  width: 70%;
+}
+
+.text-content > h3 {
+  margin: 10px 0 10px 0;
+
+}
+.text-content > p {
+  margin: 0 0 10px 0;
+}
+
+
 /************ Skills Css ************/
 .skill {
-  padding: 0 0 50px 0;
+  padding: 70px 0 70px 0;
+  margin-top: -10px;
   background-image: url('./assets/img/banner-bg3.png');
   position: relative;
 }
@@ -311,7 +390,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
-  margin-top: -60px;
+  margin-bottom: 60px;
 }
 .skill h2 {
 	font-size: 45px;
