@@ -132,7 +132,7 @@ export const Projects = () => {
 
                     <h2>Jekyll Blog</h2>
 
-                    <p>A dynamic and versatile static website powered by Ruby on Rails. This personal blog is a dedicated space where I share comprehensive tutorials, insights, and engaging content. Explore a platform designed to deliver informative and engaging articles, providing valuable resources and knowledge on various subjects.</p>
+                    <p>A dynamic and versatile static website powered by Ruby. This personal blog is a dedicated space where I share comprehensive tutorials, insights, and engaging content. Explore a platform designed to deliver informative and engaging articles, providing valuable resources and knowledge on various subjects.</p>
 
                       <Row>
                         {
