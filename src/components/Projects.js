@@ -1,11 +1,11 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
-import projImg4 from "../assets/img/project-img4.png";
-import projImg5 from "../assets/img/project-img5.png";
-import projImg6 from "../assets/img/project-img6.png";
+import projImg1 from "../assets/img/StockSavvy-gif1.gif";
+import projImg2 from "../assets/img/StockSavvy-gif2.gif";
+import projImg3 from "../assets/img/StockSavvy-gif3.gif";
+import projImg4 from "../assets/img/project-img1.png";
+import projImg5 from "../assets/img/project-img2.png";
+import projImg6 from "../assets/img/project-img3.png";
 import projImg7 from "../assets/img/project-img7.png";
 import projImg8 from "../assets/img/project-img8.png";
 import projImg9 from "../assets/img/project-img9.png";
@@ -19,18 +19,18 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Swiping Movie Feature",
-      description: "The functionality was executed using React, enabling users to indicate disinterest by swiping left and express curiosity by swiping right on a movie.",
+      title: "Intuitive Stock Search",
+      description: "Users can initiate specific stock searches or conveniently choose from a curated list of provided stocks.",
       imgUrl: projImg1,
     },
     {
-      title: "Enhanced User Interactions",
-      description: "Leveraging intuitive UI elements, the project enhances user interactions, ensuring a seamless and engaging experience. The design incorporates familiar menus and gestures for a user-friendly experience.",
+      title: "Historical Stock Performance",
+      description: "Dive into historical stock performance by seamlessly scrubbing through an interactive line graph covering the opening prices of the last 100 days.",
       imgUrl: projImg2,
     },
     {
-      title: "Personalized Movie Recommendations",
-      description: "The project offers personalized movie recommendations based on user preferences, ensuring tailored suggestions for an enjoyable movie night.",
+      title: "Responsive Graph with Plotly.js",
+      description: "The graph, powered by Plotly.js, offers a responsive design, facilitating easy zooming for users through intuitive cursor interactions.",
       imgUrl: projImg3,
     },   
 
@@ -38,18 +38,18 @@ export const Projects = () => {
   
   const projects2 = [
     {
-      title: "Main Blog Page",
-      description: "The main landing page of the blog showcases a user-friendly interface with a list of featured blogs, offering a comprehensive view of available content. Users can easily navigate through various articles and categories.",
+      title: "Swiping Movie Feature",
+      description: "The functionality was executed using React, enabling users to indicate disinterest by swiping left and express curiosity by swiping right on a movie.",
       imgUrl: projImg4,
     },   
     {
-      title: "Individual Blog Post",
-      description: "Viewing an individual blog post presents a clean and structured layout, allowing readers to delve into detailed content, including text, images, and possibly multimedia elements. Users can engage with comments and interact with the presented content.",
+      title: "Enhanced User Interactions",
+      description: "Leveraging intuitive UI elements, the project enhances user interactions, ensuring a seamless and engaging experience. The design incorporates familiar menus and gestures for a user-friendly experience.",
       imgUrl: projImg6,
     },
     {
-      title: "In-depth Blog Content",
-      description: "Further down within a blog post, users experience an immersive and informative reading experience. This section may include additional content, such as images, embedded media, related posts, or interactive elements, enhancing the overall reading journey.",
+      title: "Personalized Movie Recommendations",
+      description: "The project offers personalized movie recommendations based on user preferences, ensuring tailored suggestions for an enjoyable movie night.",
       imgUrl: projImg5,
     },
   ];
@@ -88,10 +88,10 @@ export const Projects = () => {
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">Cinematch</Nav.Link>
+                      <Nav.Link eventKey="first">StockSavvy</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Jekyll Blog</Nav.Link>
+                      <Nav.Link eventKey="second">Cinematch</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="third">Bow Wow</Nav.Link>
@@ -99,9 +99,9 @@ export const Projects = () => {
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
-                    <h2>Cinematch</h2>
+                    <h2>StockSavvy</h2>
                     
-                    <p> 'CineMatch' revolutionizes movie selection by gamifying the process, presenting curated movie lists in an interactive, 'Tinder-like' interface. This approach enhances the user experience, making movie planning enjoyable for individuals and partners alike.</p>
+                    <p> 'StockSavvy' provides users with stock data, StockSavvy integrates seamlessly with the Polygon.io REST API. Leveraging the power of React.js, the application ensures a smooth and interactive experience, enabling users to explore and analyze stock information effortlessly.</p>
                     <Row>
                         {
                           projects.map((project, index) => {
@@ -114,47 +114,56 @@ export const Projects = () => {
                           })
                         }
                     </Row>
+                      <p>
+                        <a href="https://github.com/ericjyr/Stock-Tracker" target="_blank" rel="noopener noreferrer">
+                          Source Code
+                        </a>
+                      </p>
 
-                    <p><strong>Technologies Used:</strong></p>
+                      <p><strong>Technologies Used:</strong></p>
 
                     <div className="icon-col">
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain.svg" alt="Java Logo" className="icon"/>
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Logo" className="icon"/>
                       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="Javascript Logo" className="icon"/>
                       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React Logo" className="icon"/>
                       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" alt="html5 logo" className="icon"/>
                       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" alt="css3 logo" className="icon"/>
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="mysql logo" className="icon"/>
                       <img src={github} alt="github logo" className="icon"/>
                     </div>
                     </Tab.Pane>
+
+
                     <Tab.Pane eventKey="second">
 
-                    <h2>Jekyll Blog</h2>
+                      <h2>Cinematch</h2>
 
-                    <p>A dynamic and versatile static website powered by Ruby. This personal blog is a dedicated space where I share comprehensive tutorials, insights, and engaging content. Explore a platform designed to deliver informative and engaging articles, providing valuable resources and knowledge on various subjects.</p>
-
+                      <p> 'CineMatch' revolutionizes movie selection by gamifying the process, presenting curated movie lists in an interactive, 'Tinder-like' interface. This approach enhances the user experience, making movie planning enjoyable for individuals and partners alike.</p>
                       <Row>
                         {
                           projects2.map((project, index) => {
                             return (
-                              <ProjectCard
-                                key={index}
-                                {...project}
+                                <ProjectCard
+                                    key={index}
+                                    {...project}
                                 />
                             )
                           })
                         }
-                      </Row>      
+                      </Row>
+
                       <p><strong>Technologies Used:</strong></p>
 
                       <div className="icon-col">
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-plain.svg" alt="ruby logo" className="icon"/>
-                      <img src={markdown} alt="markdown logo" className="icon"/>
-                      <img src={github} alt="github logo" className="icon"/>
-
-                    </div>  
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain.svg" alt="Java Logo" className="icon"/>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Logo" className="icon"/>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="Javascript Logo" className="icon"/>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React Logo" className="icon"/>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" alt="html5 logo" className="icon"/>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" alt="css3 logo" className="icon"/>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="mysql logo" className="icon"/>
+                        <img src={github} alt="github logo" className="icon"/>
+                      </div>
                     </Tab.Pane>
+
                     <Tab.Pane eventKey="third">
 
                     <h2>Bow Wow</h2>
