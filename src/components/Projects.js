@@ -114,9 +114,15 @@ export const Projects = () => {
                           })
                         }
                     </Row>
-                      <p>
+
+                      <p className="mb-0">
                         <a href="https://github.com/ericjyr/Stock-Tracker" target="_blank" rel="noopener noreferrer">
                           Source Code
+                        </a>
+                        </p>
+                        <p>
+                        <a href="https://ericjyr.github.io/stock-tracker/"target="_blank" rel="noopener noreferrer">
+                          Visit Stock Tracker
                         </a>
                       </p>
 
